@@ -1,0 +1,64 @@
+.mdl-layout__content {
+	background-color: #ddd;
+}
+
+.mdl-layout__header{
+	background-color: #55acee;
+}
+
+.mdl-layout__drawer{
+	padding: 0;
+	margin:0;
+	background-color: #000;
+	color: #fff;
+}
+
+.mdl-layout__drawer .mdl-layout-title{
+	padding: 0;
+	margin: 0;
+}
+
+.mdl-layout__drawer .mdl-layout-title .schoolTitleMenu{
+	background-color: #fff;
+	text-align: center;
+	height: 150px;
+	padding-top: 10px;
+}
+
+.mdl-layout__drawer .mdl-layout-title .schoolTitleMenu img{
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+}
+
+
+.mdl-layout__drawer .mdl-layout-title .schoolTitleMenu p{
+	color: #55acee;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.mdl-layout__drawer .mdl-navigation a{
+	padding: 10px 0px 10px 20px;
+	margin: 0;
+	color : #eee;
+	box-shadow: 0px 1px 1px #fff;
+	letter-spacing: 2px;
+}
+.mdl-layout__drawer .mdl-navigation i{
+	width: 30px;
+}
+
+.mdl-layout__drawer .mdl-navigation a:hover{
+	background-color: #fff;
+	color:#000;
+}
+
+.mdl-layout__content .page-content .mdl-grid .notifyCounters{
+	margin-top: 20px;
+	text-align: center;
+}
+
+
+

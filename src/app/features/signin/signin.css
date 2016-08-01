@@ -1,0 +1,26 @@
+.bGround {
+  width: 100%;
+  height: 100%;
+  margin-top: 0px;
+  background-image: url('..\..\images\signin_bg.jpg');
+
+}
+.bGround .loginContainer {
+  width: 30%;
+  margin-left: 60%;
+  padding-top: 130px;
+}
+
+.input-login {
+  width: 100%;
+}
+
+.bGround .loginContainer md-card a {
+  position: relative;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+  color: #f60;
+  text-decoration: none;
+}
+

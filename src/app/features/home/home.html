@@ -1,0 +1,41 @@
+<div class="demo-container" mdl-shadow="2">
+   <mdl-layout mdl-layout-fixed-header mdl-layout-fixed-drawer>
+      <mdl-layout-header>
+         <mdl-layout-header-row>
+            <mdl-layout-title>Welcome</mdl-layout-title>
+            <mdl-layout-spacer></mdl-layout-spacer>
+            <!-- Navigation. We hide it in small screens. -->
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+                Username &nbsp; | &nbsp;Logout
+                <label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">
+                  <i class="material-icons">power</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                  <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+                </div>
+              </div>
+         </mdl-layout-header-row>
+      </mdl-layout-header>
+      <mdl-layout-drawer>
+             <span class="mdl-layout-title">
+                <div class="schoolTitleMenu">
+                  <img src="app/images/schoolBuilding.jpg" alt="">
+                  <p> XYZ School</p>
+                </div>
+             </span>
+         <nav class="mdl-navigation">
+            <span *ngFor="let menuItem of menuList">
+            <a class="mdl-navigation__link" href="">
+              <i class="{{menuItem.icon}}" aria-hidden="true"></i><span class="menuTitle">{{menuItem.title}}</span>
+            </a>
+            </span>
+        </nav>
+      </mdl-layout-drawer>
+      <mdl-layout-content>
+          <div class="page-content">
+   
+            </div>
+      </mdl-layout-content>
+   </mdl-layout>
+</div>
